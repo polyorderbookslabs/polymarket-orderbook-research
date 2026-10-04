@@ -39,7 +39,7 @@ Set it in the environment, or put `POLYORDERBOOKS_API_KEY=...` in
 export POLYORDERBOOKS_API_KEY=pob_...
 ```
 
-The default Starter tier (60 requests/minute, 3-day history window, 1-second
+The default Starter tier (60 requests/minute, 3-day history window, 250ms
 resolution) is enough to reproduce every figure in the post.
 
 ## Data
@@ -58,9 +58,9 @@ data.
 
 ## Related repositories
 
-- [polymarket-orderbook-toolkit](https://github.com/polyorderbooks/polymarket-orderbook-toolkit) — tools for working with the sample dataset, no account required
-- [polyorderbooks-python](https://github.com/polyorderbooks/polyorderbooks-python) — official Python SDK on PyPI
-- [mcp-server](https://github.com/polyorderbooks/mcp-server) — MCP server for Claude / Cursor / any MCP client
+- [polyorderbooks-python](https://github.com/polyorderbookslabs/polyorderbooks-python) — official Python SDK on PyPI
+- [mcp-server](https://github.com/polyorderbookslabs/mcp-server) — MCP server for Claude / Cursor / any MCP client
+- [python-examples](https://github.com/polyorderbookslabs/python-examples) — runnable examples for the SDK
 
 ## License
 
