@@ -39,7 +39,7 @@ Set it in the environment, or put `POLYORDERBOOKS_API_KEY=...` in
 export POLYORDERBOOKS_API_KEY=pob_...
 ```
 
-The default Starter tier (60 requests/minute, 3-day history window, 250ms
+The default Starter tier (60 requests/minute, 1-day history window, 250ms
 resolution) is enough to reproduce every figure in the post.
 
 ## Data
